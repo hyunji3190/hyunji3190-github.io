@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "프론트엔드 개발! 한번 해보자"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Hyunji Cha"
+description              : "B.A., University of California, San Diego (Economics), 2015 / M.S., KAIST(the Korea Advanced Institute of Science and Technology) Computer Science, 2020"
 url                      :  "https://hyunji3190.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

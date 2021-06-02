@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ title                    : "프론트엔드 개발! 한번 해보자"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyunji Cha"
-description              : "B.A., University of California, San Diego (Economics), 2015 / M.S., KAIST(the Korea Advanced Institute of Science and Technology) Computer Science, 2020"
+description              : #
 url                      :  "https://hyunji3190.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,10 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Hyunji Cha"
+  avatar           : "/assets/images/bio_hyunji.jpg"
+  bio              : "B.A., University of California, San Diego (Economics), 2015 / M.S., KAIST(the Korea Advanced Institute of Science and Technology) Computer Science, 2020"
+  location         : "Ann Arbor, Michigan"
   email            :
   links:
     - label: "Email"

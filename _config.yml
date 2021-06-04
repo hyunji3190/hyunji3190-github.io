@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko"
 title                    : "프론트엔드 개발! 한번 해보자"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -23,7 +23,7 @@ name                     : "Hyunji Cha"
 description              : #
 url                      :  "https://hyunji3190.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "hyunji3190/hyunji3190.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -98,7 +98,7 @@ author:
   avatar           : "/assets/images/bio-hyunji.png"
   bio              : "B.A., University of California, San Diego (Economics), 2015 / M.S., KAIST(the Korea Advanced Institute of Science and Technology) Computer Science, 2020"
   location         : "Ann Arbor, Michigan"
-  email            :
+  email            : "hyunji3190@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -265,7 +265,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+    
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : dev-hundred-blog # Short-name
 
 # Defaults
 defaults:
@@ -277,6 +281,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true

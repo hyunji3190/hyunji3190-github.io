@@ -15,4 +15,3 @@ layouts_gallery:
 
 toc: true
 ---
->## History..
